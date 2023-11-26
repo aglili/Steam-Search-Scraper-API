@@ -2,10 +2,22 @@ from fastapi import FastAPI,Request
 from utils import scrape_steam_store_data,add_price_filter,add_os,add_search,special_offers,add_tag
 import uvicorn
 from schema import Parameters
+from fastapi.middleware.cors import CORSMiddleware
 
 
 
 app = FastAPI()
+
+
+origins = ["*"]
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 
