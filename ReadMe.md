@@ -17,7 +17,7 @@ The base URL for this API is `https://your-api-domain.com`.
         "name": "Steam Store Scraper",
         "version": "1.0.0",
         "description": "A simple web scraper API that extracts game data from the Steam Store.",
-        "github": " ",
+        "github": "https://github.com/aglili/Steam-Search-Scraper-API.git",
         "written_by": "Aglili Selorm Cecil"
     }
     ```
