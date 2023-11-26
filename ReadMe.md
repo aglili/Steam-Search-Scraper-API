@@ -4,7 +4,7 @@
 This API serves as a web scraper for extracting game data from the Steam Store. It provides endpoints to fetch game information based on different parameters.
 
 ## Base URL
-The base URL for this API is `https://your-api-domain.com`.
+The base URL for this API is `https://steam-search-scraper-api-production.up.railway.app`.
 
 ## Endpoints
 
@@ -58,7 +58,7 @@ This request will fetch strategy games under $15 available for Windows OS with s
 ## How to Use the API Documentation (/docs)
 
 1. Open a web browser.
-2. Visit the URL: `https://your-api-domain.com/docs`
+2. Visit the URL: `https://steam-search-scraper-api-production.up.railway.app/docs`
 3. Explore the available endpoints, parameters, and schemas.
 4. Test the API by providing parameters and making requests directly from the browser interface.
 
